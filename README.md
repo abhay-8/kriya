@@ -19,6 +19,8 @@ This project aims to build an admission form for monthly yoga classes, allowing 
 #### ER Diagram
 ![image](https://github.com/abhay-8/kriya/assets/104186531/8b0c0839-d7cc-45ee-ab8f-e7a453ca3818)
 
+![image](https://github.com/abhay-8/kriya/assets/104186531/7f4bb862-d21a-4377-815d-c03732755d89)
+
 
 ## Tech Stack
 - ReactJS
