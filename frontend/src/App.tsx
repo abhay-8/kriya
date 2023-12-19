@@ -7,8 +7,6 @@ const App: React.FC = () => {
   const [selectedBatch, setSelectedBatch] = useState("");
   const [gender, setGender] = useState("");
 
-  const [formSubmitted, setFormSubmitted] = useState(false);
-  const [successMessage, setSuccessMessage] = useState("");
   const [errors, setErrors] = useState({
     name: "",
     dob: "",
