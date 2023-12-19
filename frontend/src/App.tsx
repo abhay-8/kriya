@@ -46,8 +46,6 @@ const App: React.FC = () => {
     const hasErrors = Object.values(newErrors).some((error) => error !== "");
 
     if (hasErrors) {
-      setErrors(newErrors);
-      setSuccessMessage("");
     } else {
       setErrors({
         name: "",
@@ -56,8 +54,6 @@ const App: React.FC = () => {
         batch: "",
         gender: "",
       });
-      setSuccessMessage("Form submitted successfully!");
-      setFormSubmitted(true);
       // Here, you can add your submission logic, like API calls, etc.
       // For this example, I'll simulate a delay and then reset the form
       setTimeout(() => {
@@ -66,8 +62,6 @@ const App: React.FC = () => {
         setMobile("");
         setSelectedBatch("");
         setGender("");
-        setSuccessMessage("");
-        setFormSubmitted(false);
       }, 1000); // Resetting form after 3 seconds (simulating a successful submission)
     }
   };
